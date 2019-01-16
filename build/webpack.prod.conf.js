@@ -15,6 +15,8 @@ const env = require('../config/prod.env')
 
 const PrerenderSpaPlugin = require('prerender-spa-plugin')
 
+
+
 const webpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
